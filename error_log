@@ -1,0 +1,16 @@
+[30-Jul-2020 08:06:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('config')
+#1 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('config')
+#2 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('config', Array)
+#4 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('config')
+#5 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Log/L in /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[30-Jul-2020 08:06:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('config')
+#1 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('config')
+#2 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('config', Array)
+#4 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1227): Illuminate\Foundation\Application->make('config')
+#5 /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Log/L in /home/pi4iru9l5w19/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
